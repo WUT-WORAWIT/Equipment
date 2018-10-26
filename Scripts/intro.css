@@ -1,0 +1,53 @@
+img {border: 0;}
+.intro_block {
+	background: url(/images/shade.png) repeat-x;
+	position: relative;
+	height: 293px;
+}
+
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+}
+/*--Window/Masking Styles--*/
+.window {
+	height:347px;	width: 959px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0;
+	left: 1px;
+
+}
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	float: left;
+	position: absolute;
+	width: 959px; height:50px;
+	text-align: center;
+	/*background: url(/2012/images/btn_leaf_ou.png) repeat-x;*/
+	display: block;
+	padding-top: 70px;
+	margin-top: 250px;
+	margin-left: 25px;
+}
+.paging a {
+	background: url(/images/btn_leaf_ou.png) no-repeat -2px 6px;
+	text-decoration: none;
+	padding: 22px;
+}
+.paging a.active {
+	background: url(/images/btn_leaf_ac.png) no-repeat -2px 6px;
+	color: #FFFFFF;
+}
+.paging a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	background: url(/images/btn_leaf_ov.png) no-repeat -2px 6px;
+
+	}
